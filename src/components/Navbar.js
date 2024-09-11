@@ -34,6 +34,9 @@ function Navbar(props) {
           <li className="nav-item">
             <Link className="nav-link" to="/shudo">Shudo</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/search">Search</Link>
+          </li>
           
         </ul>
       </div>

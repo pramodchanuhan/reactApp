@@ -10,9 +10,14 @@ import Totalcount from './pages/Totalcount';
 import Game from './pages/Game';
 import Board from './pages/Board';
 import Shudo from './pages/Shudo';
+import Search from './pages/Search';
+import Profile from './components/Profile';
+import Theme from './components/Theme';
 
 function App() {
   return (
+    <>
+    
     <Router>
       <Navbar name={"jone"} />
       <Routes>
@@ -28,9 +33,14 @@ function App() {
         <Route path="/game" element={<Game />} />
         <Route path="/board" element={<Board />} />
         <Route path="/shudo" element={<Shudo />} />
+        <Route path="/search" element={<Search />} />
         </Routes>
     </Router>
+    < Profile />
+    < Theme />
+    </>
   );
+ 
 }
 
 export default App;

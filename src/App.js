@@ -9,6 +9,7 @@ import Counter from './pages/Counter';
 import Totalcount from './pages/Totalcount';
 import Game from './pages/Game';
 import Board from './pages/Board';
+import Shudo from './pages/Shudo';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/totalcount" element={<Totalcount />} />
         <Route path="/game" element={<Game />} />
         <Route path="/board" element={<Board />} />
+        <Route path="/shudo" element={<Shudo />} />
         </Routes>
     </Router>
   );

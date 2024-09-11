@@ -31,6 +31,10 @@ function Navbar(props) {
           <li className="nav-item">
             <Link className="nav-link" to="/board">Board</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/shudo">Shudo</Link>
+          </li>
+          
         </ul>
       </div>
     </nav>
